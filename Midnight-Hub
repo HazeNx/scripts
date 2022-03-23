@@ -80,7 +80,11 @@ CreditSection:NewLabel("AntiAFK : XxSwordmaster_2xX")
 
 elseif game.PlaceId == 6284583030 then
   local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("Midnight Hub - Pet Simulator", "Midnight")
+   local colors = {
+      SchemeColor = Color3.fromRGB(50,50,50),
+      ElementColor = Color3.fromRGB(40, 40, 40)
+}
+  local Window = Library.CreateLib("Midnight Hub - Pet Simulator", colors)
     
     --Auto Egg
     local Egg = Window:NewTab("Auto Hatch")
@@ -754,6 +758,7 @@ EggSection:NewToggle("Axolotl Egg", "Auto Hatch Egg", function(state)
         _G.hatchegg = false
     end
 end)
+
 EggSection:NewToggle("Shiny Axolotl Egg", "Auto Hatch Egg", function(state)
     if state then
         _G.hatchegg = true
@@ -771,7 +776,694 @@ EggSection:NewToggle("Shiny Axolotl Egg", "Auto Hatch Egg", function(state)
         _G.hatchegg = false
     end
 end)
+EggSection:NewLabel("Golden Eggs")
+EggSection:NewToggle("Golden Cracked Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Cracked Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Spotted Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Spotted Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Wood Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Wood Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Grass Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Grass Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Beachball Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Beachball Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Coconut Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Coconut Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Rock Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Rock Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Geode Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Geode Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Snow Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Snow Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Ice Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Ice Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Icicle Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Icicle Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Yeti Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Yeti Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Cactus Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Cactus Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Spiked Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Spiked Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Obsidian Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Obsidian Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Magma Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Magma Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Dominus Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Dominus Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
 
+EggSection:NewLabel("Fantasy World")
+
+EggSection:NewToggle("Golden Enchanted Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Enchanted Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Relic Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Relic Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Samurai Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Samurai Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Rainbow Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Rainbow Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Haunted Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Haunted Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Hell Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Hell Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Heaven Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Heaven Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Empyrean Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Empyrean Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewLabel("Tech World")
+EggSection:NewToggle("Golden Metal Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Metal Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Tech Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Tech Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Titanium Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Titanium Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Dark Tech Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Dark Tech Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Steampunk Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Steampunk Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Mechanical Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Mechanical Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Lab Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Lab Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Chemical Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Chemical Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Alien Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Alien Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Martian Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Martian Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Planet Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Planet Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Glitch Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Glitch Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Hacker Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Hacker Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewLabel("Axolotl World")
+EggSection:NewToggle("Golden Axolotl Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Axolotl Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+EggSection:NewToggle("Golden Shiny Axolotl Egg", "Auto Hatch Egg", function(state)
+    if state then
+        _G.hatchegg = true
+       while _G.hatchegg == true do
+         local args = {
+           [1] = {
+             [1] = "Golden Shiny Axolotl Egg",
+             [2] = false
+           }
+         }
+         workspace.__THINGS.__REMOTES["buy egg"]:InvokeServer(unpack(args))
+         wait()
+         end
+    else
+        _G.hatchegg = false
+    end
+end)
+
+--Player
 local Player = Window:NewTab("Player")
 local PlayerSection = Player:NewSection("Player Misc")
 
@@ -783,10 +1475,17 @@ PlayerSection:NewSlider("Walkspeed", "Change Player Walkspeed", 250, 16, functio
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
     end)
 
-local Credit = Window:NewTab("Credits")
-local CreditsSection = Credit:NewSection("Credits:")
+--Misc
+local Misc = Window:NewTab("Misc")
+local MiscSection = Misc:NewSection("Coming Soon")
 
-CreditsSection:NewLabel("Dev : HazeNx")
-CreditsSection:NewLabel("GUI : KavoUI Library")
-CreditSection:NewLabel("v1.2.0")
+
+
+--Credits
+local Credit = Window:NewTab("Credits")
+local CreditsSection = Credit:NewSection("Developer : HazeNX")
+
+CreditsSection:NewLabel("GUI : KavoUi Library")
+CreditSection:NewLabel("v1.2.2")
+CreditSection:NewLabel("Changelogs :")
 end
