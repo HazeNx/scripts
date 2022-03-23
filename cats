@@ -80,11 +80,7 @@ CreditSection:NewLabel("AntiAFK : XxSwordmaster_2xX")
 
 elseif game.PlaceId == 6284583030 then
   local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-  local colors = {
-    SchemeColor = Color3.fromRGB(40,40,40)
-    ElementColor = Color3.fromRGB(50, 50, 50)
-  }
-    local Window = Library.CreateLib("Midnight Hub - Pet Simulator", colors)
+    local Window = Library.CreateLib("Midnight Hub - Pet Simulator X", "Synapse")
     
     --Auto Egg
     local Egg = Window:NewTab("Auto Hatch")
@@ -1483,7 +1479,7 @@ local MiscSection = Misc:NewSection("Coming Soon")
 
 --Credits
 local Credit = Window:NewTab("Credits")
-local CreditsSection = Credit:NewSection("Credits")
+local CreditsSection = Credit:NewSection("Credits :")
 
 CreditsSection:NewLabel("Dev : HazeNx")
 CreditsSection:NewLabel("GUI : KavoUi Library")
