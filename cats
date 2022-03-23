@@ -81,7 +81,7 @@ CreditSection:NewLabel("AntiAFK : XxSwordmaster_2xX")
 elseif game.PlaceId == 6284583030 then
   local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
   local Window = Library.CreateLib("Midnight Hub - Pet Simulator X", "Synapse")
-    Window.Draggable = true 
+  
     --Auto Egg
     local Egg = Window:NewTab("Auto Hatch")
     local EggSection = Egg:NewSection("Overworld Eggs")
